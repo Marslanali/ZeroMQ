@@ -11,7 +11,7 @@ This project was built using VC2015 with Matlab 2016a with ZMQ 4.0.x.
 
 Make sure latest version of ZeroMQ install on your system. For ZeroMQ installation, see https://zeromq.org/download/ for instructions.
 
-#### Matlab binding for ZeroMQ
+### Matlab binding for ZeroMQ
 
 Make sure you have ZMQ 4.0.x installed. Change settings in config_win.m to point to your installation. Ensure you have mex configured. On Matlab it can be easily set by ``` mex -setup C ```.
 Then Run ```make.m```
