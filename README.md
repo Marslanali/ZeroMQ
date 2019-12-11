@@ -9,7 +9,7 @@ This project was buit using VC2015 with Matlab 2016a with ZMQ 4.0.x.
 
 ### ZeroMQ Installation
 
-Make sure latest version of ZeroMQ install on your system. For ZeroMQ installation, see http://arma.sourceforge.net/download.html for instructions.
+Make sure latest version of ZeroMQ install on your system. For ZeroMQ installation, see https://zeromq.org/download/ for instructions.
 
 #### Matlab binding for ZeroMQ
 
