@@ -1,5 +1,5 @@
 # cpp_matlab_zmq
-Publisher Subscriber pattern for C and Matlab using ZeroMQ 
+Publisher Subscriber pattern for C and Matlab using ZeroMQ.
 
 This repositroy is implementation publisher/subsciber pattern for C and Matlab.
 
