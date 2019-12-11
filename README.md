@@ -5,7 +5,7 @@ This repositroy is implementation publisher/subsciber pattern for C and Matlab.
 
 ### Dependencies
 
-This project was buit using VC2015 with Matlab 2016a with ZMQ 4.0.x. 
+This project was built using VC2015 with Matlab 2016a with ZMQ 4.0.x. 
 
 ### ZeroMQ Installation
 
