@@ -17,7 +17,6 @@ Make sure latest version of ZeroMQ install on your system. For ZeroMQ installati
 
 ```
 sudo apt-get install libzmq3-dev
-
 ```
 
 ### Matlab binding for ZeroMQ
