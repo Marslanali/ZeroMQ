@@ -14,7 +14,7 @@ Make sure latest version of ZeroMQ install on your system. For ZeroMQ installati
 ### Matlab binding for ZeroMQ
 
 Make sure you have ZMQ 4.0.x installed. Change settings in config_win.m to point to your installation. Ensure you have mex configured. On Matlab it can be easily set by ``` mex -setup C ```.
-Then Run ```make.m```
+Then Run ```make.m```. 
 Make sure that the lib directory is on your MATLAB path.
 
 ### Runing the Code
