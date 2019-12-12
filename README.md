@@ -24,3 +24,11 @@ To run, first clone the repository.
 ```git clone``` https://github.com/Marslanali/cpp_matlab_zmq.git
 
 Run ```Publisher.cpp``` and on matlab run ```Subscriber.m```.
+
+### Problem running the code
+
+Make sure you have libsodium.dll on your VC++ and Matlab path where you are currently running example codes.
+
+Other dependencies can be check by dependency walker, see http://www.dependencywalker.com/ .
+
+
