@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/arslan/CLionProjects/programming_by_demonstration/include/datapoints.h
+armadillo
+/home/arslan/CLionProjects/programming_by_demonstration/include/armadillo
+fstream
+-
+vector
+-
+
+/home/arslan/CLionProjects/zmq_publisher/include/datapoints.h
+armadillo
+/home/arslan/CLionProjects/zmq_publisher/include/armadillo
+fstream
+-
+vector
+-
+
+/home/arslan/CLionProjects/zmq_publisher/main.cpp
+iostream
+-
+string.h
+-
+zmq.h
+-
+cstdio
+-
+include/datapoints.h
+/home/arslan/CLionProjects/zmq_publisher/include/datapoints.h
+
+/home/arslan/CLionProjects/zmq_publisher/src/datapoints.cpp
+/home/arslan/CLionProjects/programming_by_demonstration/include/datapoints.h
+-
+
