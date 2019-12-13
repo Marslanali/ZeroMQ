@@ -58,7 +58,7 @@ make
 
 Make sure you environment variable is set for path of ``libsodium.dll`` on your VC++ and Matlab path where you are currently running example codes.
 
-Other dependencies can be check by dependency walker, see http://www.dependencywalker.com/ .
+Other dependencies can be check by dependency walker, see http://www.dependencywalker.com/ 
 
 **On Ubuntu:**
 
