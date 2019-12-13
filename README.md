@@ -1,7 +1,7 @@
 # cpp_matlab_zmq
-Publisher Subscriber pattern for C and Matlab using ZeroMQ.
+Publisher/Subscriber and PUSH/PULL pattern for C and Matlab using ZeroMQ.
 
-This repositroy is implementation publisher/subsciber pattern for C and Matlab.
+This repositroy is implementation publisher/subsciber and PUSH/PULL pattern for C and Matlab.
 
 ### Dependencies
 
@@ -15,8 +15,15 @@ Make sure latest version of ZeroMQ install on your system. For ZeroMQ installati
 
 **On Debian and Ubuntu:**
 
+if you intall by ``` sudo apt-get install libzmq3-dev ```, CMake should be configure according. Recommend way is to build from source. https://github.com/zeromq/libzmq. 
+
+
 ```
-sudo apt-get install libzmq3-dev
+./configure
+make
+sudo make install
+sudo ldconfig
+
 ```
 
 ### Matlab binding for ZeroMQ
@@ -49,7 +56,7 @@ make
 
 **On Windows:**
 
-Make sure you have libsodium.dll on your VC++ and Matlab path where you are currently running example codes.
+Make sure you environment variable is set for path of ``libsodium.dll`` on your VC++ and Matlab path where you are currently running example codes.
 
 Other dependencies can be check by dependency walker, see http://www.dependencywalker.com/ .
 
