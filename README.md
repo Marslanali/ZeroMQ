@@ -26,7 +26,7 @@ sudo ldconfig
 
 ```
 
-### Matlab binding for ZeroMQ
+### ZeroMQ mex bindings for MATLAB 
 
 Make sure you have ZMQ 4.0.x installed. Change settings in ```config_win.m``` & ```config_unix.m``` to point to your installation. Ensure you have mex configured. On Matlab it can be easily set by ``` mex -setup C ```.
 Then Run ```make.m```. 
