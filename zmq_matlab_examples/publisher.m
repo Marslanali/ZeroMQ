@@ -1,7 +1,5 @@
 function pub_server(varargin)
     % Super reliable weather information server
-    %
-    %
     % This weather server will broadcast messages consisting of two integers
     % separated by a space, the first one is the CEP (ZIP brazilian equivalent)
     % and the second is the temperature in celsius
