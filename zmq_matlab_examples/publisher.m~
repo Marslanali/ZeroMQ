@@ -1,0 +1,61 @@
+%% Matlab Subscribers using ZMQ
+%%
+ clc
+ clear all
+
+ void * context = zmq_ctx_new();
+    void * publisher = zmq_socket(context, ZMQ_PUB);
+    zmq_bind(publisher, "tcp://*:5556");
+    char buffer[30] = {};
+
+    while (1)
+    {
+
+        sprintf(buffer, "%d %0.4f ", 10001, 3.21);
+        zmq_send(publisher, buffer, 30, 0);
+        std::cout << "sent" <<buffer<< std::endl;
+    }
+    zmq_close(publisher);
+    zmq_ctx_destroy(context);
+
+    return 0;
+
+%%
+port = 5556;
+
+% Socket to talk to server
+context = zmq.core.ctx_new();
+socket = zmq.core.socket(context, 'ZMQ_PUB');
+
+% Publishing a data
+address = sprintf('tcp://*:%d', port);
+zmq.core.connect(socket, address);
+
+topicfilter = '10001';
+
+zmq.core.setsockopt(socket, 'ZMQ_PUBLISHER', topicfilter);
+
+
+%%
+
+for i=1:1500
+
+message=char(zmq.core.recv(socket));
+parts=strsplit(message);
+[topic, px]=parts{:};
+
+topic=str2double(topic);
+Px=str2double(px);
+
+fprintf('Recieved Positions (Px, py, pz) %0.4f Topic %d\n', Px,topic);
+
+end
+
+zmq.core.disconnect(socket, address);
+
+zmq.core.close(socket);
+
+zmq.core.ctx_shutdown(context);
+zmq.core.ctx_term(context);
+
+%%
