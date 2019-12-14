@@ -15,10 +15,9 @@ char buffer[30] = {};
 
 	while (1)
 	{
-		
 		sprintf_s(buffer, "%d %0.4f ", 10001, 3.21);
 		zmq_send(publisher, buffer, 30, 0);
-		std::cout << "sent" <<buffer<< std::endl;
+		std::cout << "Pubishing...\n" <<buffer<< std::endl;
 	}
 	zmq_close(publisher);
 	zmq_ctx_destroy(context);

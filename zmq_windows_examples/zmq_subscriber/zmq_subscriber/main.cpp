@@ -9,17 +9,14 @@
 int main(void)
 {
 
-	printf("Connecting to hello world server\n");
+	printf("Connecting to zmq_windows_server server\n");
 	void * context = zmq_ctx_new();
 	void * subscriber = zmq_socket(context, ZMQ_SUB);
-	zmq_connect(subscriber, "tcp://127.0.0.1:5556");
-	const int SIZE = 20;
-	char msg[SIZE];
-//	cout << "receiving..." << endl;
-//	zmq_setsockopt(subscriber, ZMQ_SUBSCRIBE, "hello", strlen("hello"));
-	int a = zmq_recv(subscriber, msg, SIZE, 0);
+	zmq_connect(subscriber, "tcp://localhost:5555");
+	char buffer[20];
+	int a = zmq_recv(subscriber, buffer, 20, 0);
 	assert(a != -1);
-	std::cout << "received" << msg << std::endl;
+	std::cout << "Received: \n " << buffer << std::endl;
 	zmq_close(subscriber);
 	zmq_ctx_destroy(context);
 	return 0;
