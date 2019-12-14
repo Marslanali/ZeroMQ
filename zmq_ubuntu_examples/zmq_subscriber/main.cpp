@@ -14,7 +14,7 @@ int main(void)
     printf("Connecting to server\n");
     void * context = zmq_ctx_new();
     void * subscriber = zmq_socket(context, ZMQ_SUB);
-    zmq_connect(subscriber, "tcp://localhost:5551");
+    zmq_connect(subscriber, "tcp://localhost:5552");
     int rc = zmq_setsockopt (subscriber, ZMQ_SUBSCRIBE, "", 0);
     assert (rc == 0);
     char buffer[20];
