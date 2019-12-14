@@ -1,2 +1,2 @@
 * linguist-vendored
-*.HTML linguist-vendored=false
+*.MATLAB linguist-vendored=false
