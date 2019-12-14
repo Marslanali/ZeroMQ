@@ -60,5 +60,4 @@ Make sure you environment variable is set for path of ``libsodium.dll`` on your 
 
 Other dependencies can be check by dependency walker, see http://www.dependencywalker.com/ 
 
-**On Ubuntu:**
 
