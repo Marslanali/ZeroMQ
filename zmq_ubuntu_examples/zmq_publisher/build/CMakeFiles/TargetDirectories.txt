@@ -1,3 +1,0 @@
-/home/arslan/CLionProjects/zmq_publisher/build/CMakeFiles/rebuild_cache.dir
-/home/arslan/CLionProjects/zmq_publisher/build/CMakeFiles/zmq_publisher.dir
-/home/arslan/CLionProjects/zmq_publisher/build/CMakeFiles/edit_cache.dir

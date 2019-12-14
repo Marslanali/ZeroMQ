@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/zmq.dir/main.cpp.o CMakeFiles/zmq.dir/src/datapoints.cpp.o  -o zmq /usr/lib/x86_64-linux-gnu/libarmadillo.so /usr/lib/x86_64-linux-gnu/libzmq.so 

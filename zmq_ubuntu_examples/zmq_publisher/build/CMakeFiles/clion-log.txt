@@ -1,9 +1,0 @@
-/opt/clion-2019.2.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/arslan/CLionProjects/zmq_publisher
--- ZeroMQ_FOUND: 
--- ZeroMQ_LIBRARIES: /usr/local/lib/libzmq.so
--- ZeroMQ_INCLUDE_DIR: /usr/local/include
--- ZeroMQ_VERSION: 
--- Configuring done
-WARNING: Target "zmq_publisher" requests linking to directory "/usr/local/lib".  Targets may link only to libraries.  CMake is dropping the item.
--- Generating done
--- Build files have been written to: /home/arslan/CLionProjects/zmq_publisher/build
