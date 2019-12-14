@@ -1,3 +1,2 @@
-*.C++ linguist-detectable=true
-
-*.xml linguist-detectable=false
+# to change language of repo from HTMP to C++
+    *.html linguist-language=C++
