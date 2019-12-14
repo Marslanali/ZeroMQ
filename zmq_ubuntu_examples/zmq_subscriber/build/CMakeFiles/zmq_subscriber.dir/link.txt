@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/zmq_subscriber.dir/main.cpp.o  -o zmq_subscriber /usr/lib/x86_64-linux-gnu/libarmadillo.so 

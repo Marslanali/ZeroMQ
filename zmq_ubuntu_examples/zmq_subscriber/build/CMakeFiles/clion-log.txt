@@ -1,9 +1,26 @@
-/opt/clion-2019.2.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/arslan/CLionProjects/zmq_subscriber
+/opt/clion-2019.2.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/arslan/Downloads/cpp_matlab_zmq/zmq_ubuntu_examples/zmq_subscriber
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
 -- ZeroMQ_FOUND: 
--- ZeroMQ_LIBRARIES: /usr/lib/x86_64-linux-gnu/libarmadillo.so
+-- ZeroMQ_LIBRARIES: 
 -- ZeroMQ_INCLUDE_DIR: 
 -- ZeroMQ_VERSION: 
--- Configuring done
-WARNING: Target "zmq_subscriber" requests linking to directory "/usr/local/lib".  Targets may link only to libraries.  CMake is dropping the item.
--- Generating done
--- Build files have been written to: /home/arslan/CLionProjects/zmq_subscriber/build
+CMake Error: The following variables are used in this project, but they are set to NOTFOUND.
+Please set them or make sure they are set and tested correctly in the CMake files:
+ZeroMQ_LIBRARIES
+    linked by target "zmq_subscriber" in directory /home/arslan/Downloads/cpp_matlab_zmq/zmq_ubuntu_examples/zmq_subscriber
+
+-- Configuring incomplete, errors occurred!
+See also "/home/arslan/Downloads/cpp_matlab_zmq/zmq_ubuntu_examples/zmq_subscriber/build/CMakeFiles/CMakeOutput.log".
