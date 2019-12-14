@@ -1,2 +1,2 @@
 # to change language of repo from HTMP to C++
-    *.html linguist-language=C++
+    *.linguist-language=C++
