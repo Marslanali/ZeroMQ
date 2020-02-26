@@ -1,5 +1,6 @@
 # cpp_matlab_zmq
 Publisher/Subscriber and PUSH/PULL pattern for C and Matlab using ZeroMQ.
+**All the credit for original package of ZeroMQ matlab binding goes to https://github.com/fagg/matlab-zmq
 
 This repositroy is implementation publisher/subsciber and PUSH/PULL pattern for C and Matlab.
 
