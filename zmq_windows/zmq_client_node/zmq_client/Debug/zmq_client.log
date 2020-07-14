@@ -1,0 +1,10 @@
+﻿  main.cpp
+main.obj : error LNK2019: unresolved external symbol __imp__zmq_ctx_new referenced in function _main
+main.obj : error LNK2019: unresolved external symbol __imp__zmq_ctx_destroy referenced in function _main
+main.obj : error LNK2019: unresolved external symbol __imp__zmq_socket referenced in function _main
+main.obj : error LNK2019: unresolved external symbol __imp__zmq_close referenced in function _main
+main.obj : error LNK2019: unresolved external symbol __imp__zmq_connect referenced in function _main
+main.obj : error LNK2019: unresolved external symbol __imp__zmq_send referenced in function _main
+main.obj : error LNK2019: unresolved external symbol __imp__zmq_recv referenced in function _main
+D:\zmq\libzmq-v141-mt-4_3_2.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+c:\users\arslan ali\documents\visual studio 2015\Projects\zmq_client\Debug\zmq_client.exe : fatal error LNK1120: 7 unresolved externals
