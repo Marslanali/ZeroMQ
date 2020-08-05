@@ -47,7 +47,6 @@ add_executable(zmq-publisher
 target_link_libraries(zmq-publisher  ${ZeroMQ_LIBRARIES} /usr/local/lib)
 
 
-
 ## Armadillo Libraries
 ##find_package(Armadillo 4.4 REQUIRED)
 ##include_directories(include ${ARMADILLO_INCLUDE_DIRS})
